@@ -10,16 +10,12 @@
     });
 
 
-    // var owl = $("#owl-demo");
+    var owl = $("#owl-demo");
  
-	// 	owl.owlCarousel({
-	//     	items : 6
-	// 	});
-		$(document).ready(function() {
- 
-			$(".owl-carousel").owlCarousel();
-		   
-		  });
+		owl.owlCarousel({
+	    	items : 6
+		});
+		
 	 
 		// Custom Navigation Events
 		$(".next").click(function(){
