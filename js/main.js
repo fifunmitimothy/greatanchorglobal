@@ -15,7 +15,6 @@
 		owl.owlCarousel({
 	    	items : 6
 		});
-		
 	 
 		// Custom Navigation Events
 		$(".next").click(function(){
